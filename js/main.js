@@ -11,6 +11,13 @@
 			medium:  [ '737px',   '980px'  ],
 			small:   [ null,      '736px'  ]
 		});
+		
+	// Play initial animations on page load.
+	$window.on('load', function() {
+		window.setTimeout(function() {
+			$body.removeClass('is-preload');
+		}, 100);
+	});
 
 	// Scrolly.
 		$('#nav a, .scrolly').scrolly({
