@@ -30,6 +30,21 @@ body {
 	color: var(--primarytext);
 }
 
+.header2 form {
+	background-color: var(--backgroundcolor);
+	color: var(--primarytext);
+}
+
+.header2 form input{
+	background-color: var(--cardcolor);
+	color: var(--primarytext);
+}
+
+.header2 form textarea {
+	background-color: var(--cardcolor);
+	color: var(--primarytext);
+}
+
 .nav {
 	display:flex;
 	background-color: var(--cardcolor);
@@ -77,8 +92,12 @@ body {
 	border-radius: 50%;
 }
 
+.list	{
+	list-style-type: none;
+}
 
 @media screen and (max-width: 700px) {
 	.row, .nav {   
 	  flex-direction: column;
+}
 }
