@@ -36,13 +36,13 @@ body {
 }
 
 .header2 form input{
-	background-color: var(--cardcolor);
-	color: var(--primarytext);
+	background-color: var(--secondarytext);
+	color: var(--backgroundcolor);
 }
 
 .header2 form textarea {
-	background-color: var(--cardcolor);
-	color: var(--primarytext);
+	background-color: var(--secondarytext);
+	color: var(--backgroundcolor);
 }
 
 .nav {
