@@ -45,21 +45,35 @@ body {
 	color: var(--backgroundcolor);
 }
 
-.nav {
+
+.navbar {
 	display:flex;
 	background-color: var(--cardcolor);
 }
 
-.nav a {
+#title {
 	color: var(--secondarytext);
-	padding: 15px 175px;
 	text-decoration: none;
 	text-align: center;
 }
 
-.nav a:hover {
+.navbar a {
+	color: var(--secondarytext);
+	background-color: var(--cardcolor);
+	text-decoration: none;
+	text-align: center;
+}
+
+.navbar a:hover {
 	background-color: var(--hovercolor);
 	color: var(--primarytext);
+}
+
+.navbar ul {
+	color: var(--secondarytext);
+	background-color: var(--cardcolor);
+	text-decoration: none;
+	text-align: left;
 }
 
 .row {
